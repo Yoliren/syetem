@@ -1,0 +1,13 @@
+<view>
+  <button type="primary" bindtap="wait">
+   查看位置</button>
+   <button type="primary" bindtap="checkin">
+    签  到 </button>
+  <button type="primary" bindtap="today"> 
+   查看历史事件 </button>
+  <button type="float" bindtap="warn"> 
+   查看公司大事件 </button>
+</view>
+<modal title="签到成功" confirm-text="确认" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="modalChange" >
+{{message}}
+</modal>
