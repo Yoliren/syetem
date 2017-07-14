@@ -6,8 +6,8 @@
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 178rpx;
+  height: 178rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
@@ -18,12 +18,24 @@
 
 .usermotto {
   margin-top: 80px;
-  font-size:30px;
-  color: gainsboro;
+  font-size:20px;
+  color: #aaa;
+}
+
+.usermotto1 {
+  margin-top: 10px;
+  font-size:20px;
+  color: #aaa;
 }
 .btn-area{
-  margin-top:100px;
+  margin-top:80px;
   font-size: 25px;
   background-color: gainsboro;
   color: rgb(red, green, blue);
+}
+.max{
+  margin-top:8px;
+  color:#aaa;
+  font-style: italic;
+  font-size: 15px;
 }

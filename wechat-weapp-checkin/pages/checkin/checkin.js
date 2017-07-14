@@ -16,7 +16,7 @@ Page({
           message: userInfo.nickName + ' ,签到成功.' + ' 经度：' + res.latitude + '  ,纬度：' + res.longitude + ' ,精确度：' + res.accuracy ,
           }),
             wx.request({
-            url: 'https://lanhai.saltedfisher.cn/index.php', //你的后台地址
+            url: 'http://lanhai.saltedfisher.cn/index.php', //你的后台地址
               data: {
                 z: userInfo.nickName,
                 x: res.latitude,
@@ -41,7 +41,7 @@ modalChange: function(e) {
     this.setData({
       modalHidden: true
     })
-  },
+},
   wait: function (a) {
     var that = this
     wx.getLocation({
@@ -61,6 +61,11 @@ modalChange: function(e) {
  warn: function (b) {
    wx.navigateTo({
      url: '../import/import'
+   })
+ },
+ opinion:function(c){
+   wx.navigateTo({
+     url: '../new/new'
    })
  }
 })

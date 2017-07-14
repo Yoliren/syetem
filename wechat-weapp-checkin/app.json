@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/checkin/checkin",
-    "pages/import/import"
+    "pages/import/import",
+    "pages/new/new"
   ],
   "window": {
     "backgroundTextStyle": "light",

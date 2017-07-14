@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '欢迎进入',
+    motto: '不追随，不证明，不迎合',
     userInfo: {}
   },
   //事件处理函数
@@ -22,5 +22,6 @@ Page({
         userInfo:userInfo
       })
     })
-  }
+  },
+  
 })

@@ -5,10 +5,15 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto" style="width: 100%">{{motto}}</text>
   </view>
-
+  <view class="usermotto1">
+   <text>专注本质，胜过表象</text>
+  </view>
   <view  bindtap="checkin" class="btn-area">
     <text class="user-motto">登录</text>
+  </view>
+  <view class="max">
+   <text>登陆可查询信息</text>
   </view>
 </view>

@@ -1,12 +1,18 @@
 <view>
+  <text class="abc">
+  请点击“查看位置”确认位置信息，点击“签到”完成签到</text>
   <button type="primary" bindtap="wait">
    查看位置</button>
    <button type="primary" bindtap="checkin">
     签  到 </button>
+    <text>
+    功能拓展区：</text>
   <button type="primary" bindtap="today"> 
-   查看历史事件 </button>
-  <button type="float" bindtap="warn"> 
-   查看公司大事件 </button>
+   查看签到历史 </button>
+  <button type="primary" bindtap="warn"> 
+   查看公司活动日记 </button>
+   <button type="primary" bindtap="opinion"> 
+   意见反馈</button>
 </view>
 <modal title="签到成功" confirm-text="确认" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="modalChange" >
 {{message}}
